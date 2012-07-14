@@ -1,9 +1,0 @@
-h1. puppet-readme
-
-h2. Requires
-
-* @curl@ module
-
-h2. Quickstart
-
-bc. TODO
