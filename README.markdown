@@ -4,7 +4,7 @@ puppet-github
 Requires
 --------
 
- * *curl*-Package
+ * *curl*-Package (retrieved automaticly)
 
 Quickstart
 ----------
