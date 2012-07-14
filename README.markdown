@@ -25,7 +25,7 @@ Branch is not required, *master* will be fetched, if not given.
 License
 -------
 
-puppet-github  Copyright (C) 2012  Rainer Jung
-This program comes with ABSOLUTELY NO WARRANTY; This is free software,
-and you are welcome to redistribute it under certain conditions;
-For details see LICENSE-file bundled with this file.
+    puppet-github  Copyright (C) 2012  Rainer Jung
+    This program comes with ABSOLUTELY NO WARRANTY; This is free software,
+    and you are welcome to redistribute it under certain conditions;
+    For details see LICENSE-file bundled with this file.
