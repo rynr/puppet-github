@@ -11,7 +11,9 @@ Quickstart
 
 Install puppet-github to your modules (when you use git, it's easiest to
 *git submodule add git://github.com/rynr/puppet-github.git modules/github*).
+
 Now you can use this for your manifest:
+
     github::tarball { '/tmp/puppet.tgz':
       user     => 'puppetlabs',
       project  => 'puppet',
