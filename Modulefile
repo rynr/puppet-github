@@ -1,0 +1,7 @@
+name         'puppet-github'
+version      '1.0'
+source       'http://github.com/rjung/puppet-github'
+author       'Rainer Jung'
+license      'GPL'
+summary      'Download tarballs from github'
+project_page 'http://rjung.github.com/puppet-github'
