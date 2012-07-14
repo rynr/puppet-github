@@ -17,7 +17,10 @@ Now you can use this for your manifest:
     github::tarball { '/tmp/puppet.tgz':
       user     => 'puppetlabs',
       project  => 'puppet',
+      branch   => '3.x',
     }
+
+Branch is not required, *master* will be fetched, if not given.
 
 License
 -------
