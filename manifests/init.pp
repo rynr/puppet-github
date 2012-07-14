@@ -1,5 +1,5 @@
 
-class github($user, $project, $branch = 'master') {
+class github {
 
   package { 'curl':
     ensure => installed,
@@ -7,12 +7,12 @@ class github($user, $project, $branch = 'master') {
 
 }
 
-define github::tarball($user, $project, $branch = 'master') {
+define github::tarball($user, $project, $branch = 'master', $file = $title) {
   include github
 
-  exec { "curl-$name":
-    command => "curl -o '$name' 'http://github.com/$user/$project/tarball/$branch'",
-    unless  => "test -s '$name'",
+  exec { "curl-$title":
+    command => "curl -L -o '$file' 'http://github.com/$user/$project/tarball/$branch'",
+    unless  => "test -s '$file'",
     path    => '/usr/bin:/usr/sbin',
     require => Class['github'],
   }
