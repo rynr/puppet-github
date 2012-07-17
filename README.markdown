@@ -1,6 +1,8 @@
 puppet-github
 =============
 
+Download Tarballs from Github
+
 Requires
 --------
 
