@@ -31,3 +31,11 @@ License
     This program comes with ABSOLUTELY NO WARRANTY; This is free software,
     and you are welcome to redistribute it under certain conditions;
     For details see LICENSE-file bundled with this file.
+
+Links
+-----
+
+ * [Info](http://rynr.github.io/puppet-github)
+ * [Puppetforge](http://forge.puppetlabs.com/rjung/github)
+ * [Github](http://github.com/rynr/puppet-github)
+ * [![Build Status](https://travis-ci.org/rynr/puppet-github.png?branch=master)](https://travis-ci.org/rynr/puppet-github)
