@@ -5,9 +5,8 @@ define github::zipball(
   $branch = 'master',
   $file = $title,
 ) {
-  include github
 
-  exec { "curl-zip-$title":
+  exec { "curl-github-zip-$title":
     command => "curl -L -o '$file' 'http://github.com/$user/$project/zipball/$branch'",
     unless  => "test -s '$file'",
     path    => '/usr/bin:/usr/sbin',

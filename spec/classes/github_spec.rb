@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-describe 'github' do
+describe 'github', :type => 'class' do
 
-  it { contain_package('curl') }
+  it { should contain_package('curl') }
 
 end
