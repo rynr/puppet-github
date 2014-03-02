@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'github::tarball' do
+describe 'github::zipball' do
 
   it { contain_package('github') }
 
