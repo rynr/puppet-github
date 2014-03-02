@@ -2,8 +2,11 @@
 # Curl is then used to fetch the files from github.
 class github {
 
-  package { 'curl':
-    ensure => installed,
+  # Package['curl'] could already be defined somewhere else
+  if ! defined(Package['curl']) {
+    package { 'curl':
+      ensure => installed,
+    }
   }
 
 }
