@@ -4,3 +4,4 @@ rvm:
   - jruby-head
   - rbx
   - ree
+script: bundle exec rake lint spec
