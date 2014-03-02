@@ -1,4 +1,5 @@
-
+# This main github-class only defines the dependency of the curl-package.
+# Curl is then used to fetch the files from github.
 class github {
 
   package { 'curl':
@@ -6,36 +7,3 @@ class github {
   }
 
 }
-
-define github::tarball(
-  $user,
-  $project,
-  $branch = 'master',
-  $file = $title
-) {
-  include github
-
-  exec { "curl-tar-$title":
-    command => "curl -L -o '$file' 'http://github.com/$user/$project/tarball/$branch'",
-    unless  => "test -s '$file'",
-    path    => '/usr/bin:/usr/sbin',
-    require => Class['github'],
-  }
-}
-
-define github::zipball(
-  $user,
-  $project,
-  $branch = 'master',
-  $file = $title
-) {
-  include github
-
-  exec { "curl-zip-$title":
-    command => "curl -L -o '$file' 'http://github.com/$user/$project/zipball/$branch'",
-    unless  => "test -s '$file'",
-    path    => '/usr/bin:/usr/sbin',
-    require => Class['github'],
-  }
-}
-

@@ -1,4 +1,4 @@
-node "testhost.example.com" {
+node 'testhost.example.com' {
 
   github::tarball { '/tmp/puppet.tgz':
     user     => 'puppetlabs',
