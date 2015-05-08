@@ -1,0 +1,11 @@
+{
+  "name": "rjung-github",
+  "version": "1.0.1",
+  "author": "Rainer Jung",
+  "license": "GPL",
+  "summary": "Download tarballs from github",
+  "source": "https://github.com/rynr/puppet-github",
+  "project_page": "https://forge.puppetlabs.com/rynr/github",
+  "issues_url": "https://github.com/rynr/puppet-github/issues",
+  "tags": ["tarball", "zip", "github", "download"]
+}
