@@ -1,5 +1,5 @@
 name         'puppet-github'
-version      '1.0.2'
+version      '1.0.3'
 source       'http://github.com/rynr/puppet-github'
 author       'Rainer Jung'
 license      'GPL'

@@ -1,6 +1,6 @@
 {
   "name": "rjung-github",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Rainer Jung",
   "license": "GPL",
   "summary": "Download tarballs from github",
