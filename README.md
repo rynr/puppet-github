@@ -24,6 +24,12 @@ Now you can use this for your manifest:
 
 Branch is not required, *master* will be fetched, if not given.
 
+Maintenance
+-----------
+
+This project is not maintained any more. I'm not using puppet any more, sorry for that.  
+If you want to take over support, feel free to contact me.
+
 License
 -------
 
